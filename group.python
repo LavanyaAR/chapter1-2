@@ -1,0 +1,7 @@
+def group(list,size)
+n=len(list)
+y=[]
+for i in range(0,n):
+for j in range(i,size):
+y[i].append(list[j])
+print y
