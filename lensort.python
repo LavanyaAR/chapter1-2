@@ -1,0 +1,9 @@
+def lensort(x)
+j=0
+y=[]
+if len(x[i])>len(x[i+1])
+ y.append(x[i])
+else
+y.append(x[i+1])
+i=i+1
+return y
